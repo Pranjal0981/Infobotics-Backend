@@ -25,7 +25,6 @@ app.use(session({
 }));
 app.use(cookieparser());
 
-// express file upload
 app.use(fileupload());
 
 const logger = require('morgan');
